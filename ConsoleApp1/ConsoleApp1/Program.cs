@@ -4,6 +4,6 @@ public class Program
 {
     static void Main(string[] args)
     {
-        Monster monster = new Monster(20, 10);
+        Monster monster = new Monster(10, 20);
     }
 }
