@@ -2,5 +2,5 @@
 
 public class Story
 {
-    protected string Story { get; set; }
+    protected string story { get; set; }
 }
