@@ -2,18 +2,18 @@
 
 public class Monster
 {
-    public int Health { get; private set; }
-    public int Attack { get; private set; }
+    public int Mp { get; private set; }
+    public int Speed { get; private set; }
 
-    public Monster(int health, int attack)
+    public Monster(int mp, int speed)
     {
-        Health = health;
-        Attack = attack;
+        Mp = mp;
+        Speed = speed;
     }
 
-    public void Damage(int damage)
+    public void MpState(int mp)
     {
-        Health -= damage;
+        Mp -= mp;
     }
 }
 
