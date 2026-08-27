@@ -10,5 +10,10 @@ public class Monster
         Health = health;
         Attack = attack;
     }
+
+    public void Damage(int damage)
+    {
+        Health -= damage;
+    }
 }
 
