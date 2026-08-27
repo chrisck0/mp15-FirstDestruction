@@ -5,5 +5,5 @@ public enum States
     Burn,
     Paralysis,
     Ice,
-    Poision
+    intoxication
 }
